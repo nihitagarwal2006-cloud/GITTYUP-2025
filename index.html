@@ -1,0 +1,274 @@
+<!-- File: index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nihit Agarwal — Computer Science Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">
+        <span class="brand-name">Nihit Agarwal</span>
+        <span class="brand-sub">Computer Science Student</span>
+      </a>
+
+      <nav class="nav" id="navbar">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button id="nav-toggle" class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <h1 class="mono-title">Hi — I'm <span class="accent">Nihit Agarwal</span></h1>
+          <p class="tagline">Building scalable systems and elegant code. I love turning problems into clean, maintainable solutions.</p>
+
+          <div class="meta">
+            <div class="meta-row"><strong>Role:</strong> Computer Science Student</div>
+            <div class="meta-row"><strong>Location:</strong> Hyderabad, India</div>
+            <div class="cta-row">
+              <a class="btn ghost" href="#projects">View Projects</a>
+              <a class="btn" href="#contact">Get in touch</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right terminal">
+          <pre><code>
+$ whoami
+Name: Nihit Agarwal
+Role: Computer Science Student
+Location: Hyderabad, India
+Skills: Python, C++, JavaScript, Java
+Projects: smart-alarm, portfolio-site, route-optimizer
+          </code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="panel">
+      <div class="container">
+        <h2 class="section-title mono">About</h2>
+        <div class="about-grid">
+          <p class="about-text">I'm a Computer Science student focused on systems programming, algorithms, and web engineering. I enjoy contributing to open source, building tools that automate workflows, and optimizing performance across the stack. I approach problems with curiosity and rigor — designing solutions that are readable, testable, and efficient.</p>
+
+          <ul class="facts">
+            <li><strong>University:</strong> <VIT-AP></VIT-AP>VIT-AP University</li>
+            <li><strong>Degree:</strong> B.Tech — Computer Science</li>
+            <li><strong>Graduation:</strong> 2025-2029</li>
+            <li><strong>Interests:</strong> Competitive coding, Open-source, Cricket, Gaming</li>
+            <li><strong>Soft skills:</strong> Problem solving, Communication, Teamwork</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="panel dark-panel">
+      <div class="container">
+        <h2 class="section-title mono">Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="card-header">
+              <h3>Smart Alarm Mat</h3>
+              <span class="tag">IoT / Embedded</span>
+            </div>
+            <p class="project-desc">A physical alarm mat that stops only when the user stands on it—prevents oversleeping by requiring physical movement. Built with an ESP32, pressure sensors, and a companion mobile app for settings.</p>
+            <ul class="project-tech">
+              <li>ESP32</li>
+              <li>MicroPython</li>
+              <li>MQTT</li>
+            </ul>
+            <div class="card-actions">
+              <a class="ghost" href="#">Repo</a>
+              <a href="#">Demo</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="card-header">
+              <h3>Route Optimizer</h3>
+              <span class="tag">Algorithms / Backend</span>
+            </div>
+            <p class="project-desc">A route optimization service that computes near-optimal delivery routes using a hybrid heuristic (genetic + local search). Focused on speed and constraint handling for realistic delivery windows.</p>
+            <ul class="project-tech">
+              <li>Python</li>
+              <li>NumPy</li>
+              <li>REST API</li>
+            </ul>
+            <div class="card-actions">
+              <a class="ghost" href="#">Repo</a>
+              <a href="#">Paper</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="card-header">
+              <h3>Portfolio Site (this)</h3>
+              <span class="tag">Front-end</span>
+            </div>
+            <p class="project-desc">A minimal, high-performance portfolio built with semantic HTML and pure CSS. Accessibility-first, responsive design with a hacker-style terminal aesthetic.</p>
+            <ul class="project-tech">
+              <li>HTML</li>
+              <li>CSS Grid & Flexbox</li>
+              <li>Performance-minded</li>
+            </ul>
+            <div class="card-actions">
+              <a class="ghost" href="#">Source</a>
+              <a href="#">Live</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="panel">
+      <div class="container">
+        <h2 class="section-title mono">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h4>Languages</h4>
+            <div class="badges">
+              <span class="badge">Python</span>
+              <span class="badge">C++</span>
+              <span class="badge">JavaScript</span>
+              <span class="badge">Java</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h4>Tools & Platforms</h4>
+            <div class="badges">
+              <span class="badge">Git</span>
+              <span class="badge">Docker</span>
+              <span class="badge">Linux</span>
+              <span class="badge">React</span>
+              <span class="badge">Node.js</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h4>Core Concepts</h4>
+            <div class="badges">
+              <span class="badge">Algorithms</span>
+              <span class="badge">Data Structures</span>
+              <span class="badge">Distributed Systems</span>
+              <span class="badge">Operating Systems</span>
+              <span class="badge">Databases</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="panel dark-panel">
+      <div class="container">
+        <h2 class="section-title mono">Education</h2>
+        <div class="education-grid">
+          <div class="edu-card">
+            <h3>VIT-AP University</h3>
+            <p class="edu-meta">B.Tech — Computer Science (Class of 2025-29)</p>
+            <p>Relevant coursework: Algorithms, Operating Systems, Database Systems, Computer Networks, Software Engineering.</p>
+          </div>
+          <div class="edu-card">
+            <h3>Highlights</h3>
+            <ul>
+              <li>Competitive programming club — regional rank holder</li>
+              <li>Open-source contributions in tooling and docs</li>
+              <li>Course projects: OS scheduler, DB mini-engine, distributed key-value store</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="panel">
+      <div class="container contact-grid">
+        <div>
+          <h2 class="section-title mono">Contact</h2>
+          <p>If you'd like to collaborate, interview, or talk about a project — reach out!</p>
+
+          <ul class="contact-list">
+            <li><strong>Email:</strong> <a href="nihitagarwal2006@gmail.com">nihitagarwal2006@gmail.com</a></li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/nihitagarwal2006-cloud" target="_blank" rel="noopener noreferrer">https://github.com/nihitagarwal2006-cloud</a></li>
+            <li><strong>LinkedIn:</strong> <a href="COMING SOON" target="_blank" rel="noopener noreferrer">coming soon</a></li>
+            <li><strong>Location:</strong> Hyderabad, India</li>
+          </ul>
+        </div>
+
+        <form class="contact-form" action="nihitagarwal2006@gmail.com" method="post" enctype="text/plain">
+          <label class="sr-only" for="name">Name</label>
+          <input id="name" name="name" placeholder="Your name" required />
+
+          <label class="sr-only" for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required />
+
+          <label class="sr-only" for="message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Short message..." required></textarea>
+
+          <div class="form-actions">
+            <button class="btn" type="submit">Send</button>
+            <button class="btn ghost" type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="mono small">© <span id="year"></span> Nihit Agarwal — Built with HTML & CSS</p>
+      <nav class="footer-nav">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Embedded JS for mobile toggle and small behaviors -->
+  <script>
+    // Mobile nav toggle
+    (function(){
+      const btn = document.getElementById('nav-toggle');
+      const nav = document.getElementById('navbar');
+      btn.addEventListener('click', function(){
+        const expanded = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', String(!expanded));
+        nav.classList.toggle('open');
+      });
+
+      // Close menu on link click (mobile)
+      document.querySelectorAll('.nav-list a').forEach(a => {
+        a.addEventListener('click', () => {
+          nav.classList.remove('open');
+          btn.setAttribute('aria-expanded', 'false');
+        });
+      });
+
+      // Fill copyright year
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+      // Smooth scroll for browsers that support it
+      if ('scrollBehavior' in document.documentElement.style) {
+        document.documentElement.style.scrollBehavior = 'smooth';
+      }
+    })();
+  </script>
+</body>
+</html>
